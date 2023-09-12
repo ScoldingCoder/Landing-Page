@@ -1,0 +1,67 @@
+/*.main-body{
+
+display: flex;
+flex-direction: column;
+
+
+
+}*/
+
+
+body{
+
+display: flex;
+flex-direction: column;
+height: 100vh;
+
+
+}
+
+
+.header{
+
+display: flex;
+gap: 15px;
+height: 10vh;
+justify-content: space-between;
+
+
+}
+
+
+.sub-header{
+
+display:flex;
+
+gap: 15px;
+
+
+}
+
+.img-text-main-Group{
+
+display:flex;
+gap:15px;
+
+
+
+}
+
+
+
+
+.Quote{
+
+display: flex;
+flex-direction: column;
+
+}
+
+
+
+.Action{
+
+display:flex;
+gap:15px;
+
+}
