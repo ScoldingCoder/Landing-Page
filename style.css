@@ -1,11 +1,12 @@
-/*.main-body{
+.main-body{
 
 display: flex;
 flex-direction: column;
 
 
 
-}*/
+
+}
 
 
 body{
@@ -21,9 +22,6 @@ margin:0px;
 width: 50vw;*/
 
 
-
-
-
 }
 
 
@@ -35,7 +33,8 @@ height: 12.5vh;
 background-color: #1f2937;
 color: white;
 width: 100vw;
-justify-content:space-around
+justify-content:space-around;
+
 
 
 }
@@ -47,6 +46,9 @@ justify-content:space-around
 .logo{
 
 display: flex;
+font-size: 24px;
+font-weight: bold;
+padding-right: 5vw;
   
 
 }
@@ -69,7 +71,7 @@ display:flex;
 background-color: #1f2937;
 color: white;
 width: 100vw;
-justify-content:space-evenly;
+justify-content:space-around;
 gap: 15px;
 height:30vh;
 
@@ -79,10 +81,30 @@ height:30vh;
 
 
 .Sub-Text{
-
+display: flex;    
+flex-direction: column;
 margin-left:18vw;
 
 }
+
+
+.Sub-Text-Header{
+
+color: #f9faf8;
+font-size: 48px;
+font-weight:bolder;
+padding-right: 10vw;
+margin-bottom: 1vh;
+
+}
+
+
+.Sub-Text-Body{
+
+padding-right: 1vw;
+margin-bottom: 5vh;
+
+}    
 
 
 .image{
@@ -90,18 +112,34 @@ margin-left:18vw;
 color: black;
 background-color: white;
 height: 20vh;
-width: 25vw;
-margin-right:16vw;
+width: 45vw;
+margin-right:18vw;
 
 
+}
 
+.random-info{
+
+padding:25px 0px ; 
+
+}
+
+.random-info-header{
+
+ display: flex;
+ margin-top:3vh;
+ margin-bottom:3vh;
+ justify-content: center;
+ color: #1f2937;
+font-size: 36px;
+font-weight: bolder;
 
 }
 
 .img-text-main-Group{
 
 display:flex;
-gap:15px;
+gap:35px;
 background-color:white;
 color:black;
 width: 100vw;
@@ -109,6 +147,39 @@ justify-content: center;
 height:22.5vh;
 
 
+}
+
+
+.img-text-pair{
+display: flex;   
+flex-direction: column; 
+max-width:10vw;
+text-align: center;
+
+
+
+
+}
+
+.text{
+
+display: flex; 
+align-content: center; 
+ 
+
+
+
+}
+
+
+.img{
+
+border-style: solid;
+border-width:0.25vw ;
+border-color: #3882f6; 
+border-radius: 5%;
+height:15vh;
+width:10vw;
 
 }
 
@@ -150,7 +221,18 @@ display:flex;
 background-color: #1f2937;
 color:white;
 width: 100vw;
-height:5vh;
+height:8.5vh;
 justify-content: center;
+
+}
+
+
+button{
+color: #f9faf8;;
+background-color: #3882f6;
+width:5vw;
+padding:1vh 1vw;
+border:none;
+border-radius:8%;
 
 }
