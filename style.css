@@ -194,9 +194,36 @@ background-color:#e5e7eb;
 color:black;
 width: 100vw;
 align-items: center;
-height:22.5vh;
+justify-content: center;
+height:27vh;
 
 
+
+}
+
+
+.Quote-box{
+
+padding:20px 520px;
+
+}
+
+
+
+.actual-quote{
+
+color:#1f2937 ;
+font-size: 36px;
+font-style:italic;
+font-weight: lighter;
+
+}
+
+
+.credit{
+
+font-weight: bold;
+text-align: right;
 
 }
 
