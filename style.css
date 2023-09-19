@@ -3,9 +3,6 @@
 display: flex;
 flex-direction: column;
 
-
-
-
 }
 
 
@@ -15,16 +12,9 @@ display: flex;
 flex-direction: column;
 margin:0px;
 
-
-/*align-items: center;*/
-/*height: 100vh;
-;
-width: 50vw;*/
-
-
 }
 
-
+/* Header Styling*/
 .header{
 
 display: flex;
@@ -35,12 +25,7 @@ color: white;
 width: 100vw;
 justify-content:space-around;
 
-
-
 }
-
-
-
 
 
 .logo{
@@ -49,7 +34,6 @@ display: flex;
 font-size: 24px;
 font-weight: bold;
 padding-right: 5vw;
-  
 
 }
 
@@ -58,11 +42,12 @@ padding-right: 5vw;
 
 display:flex;
 gap:15px;
-
-   
-    
+  
     
 }
+
+
+/* Sub-Header Styling*/
 
 
 .sub-header{
@@ -79,11 +64,11 @@ height:30vh;
 }
 
 
-
 .Sub-Text{
 display: flex;    
 flex-direction: column;
 margin-left:18vw;
+
 
 }
 
@@ -102,25 +87,31 @@ margin-bottom: 1vh;
 .Sub-Text-Body{
 
 padding-right: 1vw;
-margin-bottom: 5vh;
+padding-bottom: 2vh;
+
 
 }    
 
 
 .image{
 
-color: black;
-background-color: white;
-height: 20vh;
-width: 45vw;
+display: flex;
+height: 25vh;
+width: 18vw;
 margin-right:18vw;
-
+border-radius:25%
 
 }
 
+
+/* Information Section Styling*/
+
 .random-info{
 
+display: flex;
+flex-direction: column;
 padding:25px 0px ; 
+
 
 }
 
@@ -146,7 +137,6 @@ width: 100vw;
 justify-content: center;
 height:22.5vh;
 
-
 }
 
 
@@ -156,18 +146,12 @@ flex-direction: column;
 max-width:10vw;
 text-align: center;
 
-
-
-
 }
 
 .text{
 
 display: flex; 
 align-content: center; 
- 
-
-
 
 }
 
@@ -184,12 +168,12 @@ width:10vw;
 }
 
 
-
+/* Quote Styling*/
 
 .Quote{
 
 display: flex;
-flex-direction: column;
+
 background-color:#e5e7eb;
 color:black;
 width: 100vw;
@@ -197,14 +181,15 @@ align-items: center;
 justify-content: center;
 height:27vh;
 
-
-
 }
 
 
 .Quote-box{
-
-padding:20px 520px;
+display: flex;
+flex-direction: column;
+min-width:0;
+height:20vh;
+width:45vw;
 
 }
 
@@ -227,20 +212,65 @@ text-align: right;
 
 }
 
-
+/* Call to Action Styling*/
 
 .Action{
 
 display: flex;
 justify-content:center;
+align-items: center;
 background-color:white;
 color:black;
 width:100vw;
 gap:15px;
 height:22.5vh;
 
+
 }
 
+
+.action-box{
+
+display: flex;
+background-color: #3882f6;
+width: 45vw;
+height:5vh;
+padding: 3vh 3vw;
+color: white;
+gap: 5px;
+border-radius:1em;
+justify-content: space-around;
+
+    
+}
+
+
+.action-body{
+
+display: flex;
+justify-content: space-around ;    
+
+}
+
+
+.action-header{
+
+font-weight:bolder;
+font-size:22px;
+
+}
+
+.sign-up-act{
+
+
+border-style: solid;
+border-width: 2px;   
+border-color: whitesmoke;
+
+
+}
+
+/* Footer Styling*/
 
 .footer{
 
@@ -250,16 +280,24 @@ color:white;
 width: 100vw;
 height:8.5vh;
 justify-content: center;
+align-items: center;
 
 }
 
-
+/* Sign up Button Styling*/
 button{
-color: #f9faf8;;
+
+display: flex;  
+justify-content: center;
+align-items:center;
+color: #f9faf8;
 background-color: #3882f6;
 width:5vw;
-padding:1vh 1vw;
+height:4vh;
 border:none;
 border-radius:8%;
+margin: none;
 
 }
+
+
