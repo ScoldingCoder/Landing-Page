@@ -58,7 +58,8 @@ color: white;
 width: 100vw;
 justify-content:space-around;
 gap: 15px;
-height:30vh;
+padding-bottom: 3vh;
+
 
 
 }
@@ -135,7 +136,7 @@ background-color:white;
 color:black;
 width: 100vw;
 justify-content: center;
-height:22.5vh;
+
 
 }
 
@@ -178,18 +179,20 @@ color:black;
 width: 100vw;
 align-items: center;
 justify-content: center;
-height:27vh;
+padding: 5vh 5vw;
+
 
 }
 
 
 .Quote-box{
 
-display: flex;
-flex-direction: column;
+
+
 min-width:0;
 height:10vh;
 width:45vw;
+margin: 10px;
 
 
 }
@@ -279,24 +282,23 @@ display:flex;
 background-color: #1f2937;
 color:white;
 width: 100vw;
-height:8.5vh;
 justify-content: center;
 align-items: center;
+padding:3vh 2vw;
 
 }
 
 /* Sign up Button Styling*/
 button{
 
-display: flex;  
-justify-content: center;
-align-items:center;
+
 color: #f9faf8;
 background-color: #3882f6;
 width:5vw;
 height:4vh;
+padding: 1px 1px;
 border:none;
-border-radius:8%;
+border-radius:1em;
 margin: none;
 
 }
